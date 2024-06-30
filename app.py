@@ -22,6 +22,7 @@ import base64
 st.sidebar.title(":violet[AutoML Wizard]")
 st.sidebar.markdown('''(experimental)''')
 st.sidebar.image("wizard_icon.png")
+st.toast("Open Side bar on Left to Begin)
 sections = ["Overview","Upload Data", "Data Overview", "Model Building and Training", "Model Evaluation", "Exploratory Data Analysis (EDA)", "Download Model", "Make Predictions"]
 selection = st.sidebar.radio("Contents", sections)
 # Global variables
