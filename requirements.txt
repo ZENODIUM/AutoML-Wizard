@@ -2,6 +2,5 @@ matplotlib
 seaborn
 scikit-learn
 xgboost
-io
 pickle
 base64
