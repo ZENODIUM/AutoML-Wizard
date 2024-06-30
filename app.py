@@ -22,6 +22,7 @@ import base64
 st.sidebar.title(":violet[AutoML Wizard]")
 st.sidebar.markdown('''(experimental)''')
 st.sidebar.image("wizard_icon.png")
+st.link_button("Go to gallery", "https://streamlit.io/gallery")
 if "toast_shown" not in st.session_state:
     st.session_state["toast_shown"] = False
 
