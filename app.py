@@ -22,7 +22,7 @@ import base64
 st.sidebar.title(":violet[AutoML Wizard]")
 st.sidebar.markdown('''(experimental)''')
 st.sidebar.image("wizard_icon.png")
-st.sidebar.markdown('''Made by [vizeno](https://www.linkedin.com/in/vizeno/) | [Code](https://github.com/ZENODIUM/AutoML-Wizard/) ''')
+st.sidebar.markdown('''Made by [vizeno](https://www.linkedin.com/in/vizeno/) | [code](https://github.com/ZENODIUM/AutoML-Wizard/) ''')
 if "toast_shown" not in st.session_state:
     st.session_state["toast_shown"] = False
 
